@@ -1603,7 +1603,7 @@ with st.sidebar:
         min_value=0.05,
         max_value=0.50,
         value=0.20,
-        step=0.05,
+        step=0.01,
     )
 
     init_mode = st.selectbox(
